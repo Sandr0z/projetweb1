@@ -33,7 +33,7 @@
     <p>Exemple : <br />
         &#60;p&#62;Voici mon paragraphe encore une fois sur la communication non-violente au quotidien. &#60;hr/&#62;
         <hr />
-        Elle a été théorisée par l'enseignant chercheur Marshall Rosenberg.&#60;/p&#62;</p>
+        Elle a été théorisée par l'enseignant chercheur Marshall Rosenberg.&#60;/p&#62; </p>
     <h2>&#60;blockquote&#62; : de grandes citations</h2>
     <p>Cette balise permet de montrer au navigateur que le texte suivant est une grande citation.</p>
     Exemple : &#60;blockquote&#62; Ma grande citation &#60;/blockquote&#62; <br />
@@ -52,8 +52,52 @@
     <h2>&#60;table&#62; : Les tableaux</h2>
     <p>Cette balise permet d'afficher un tableau</p>
     <p>Exemple : &#60;table&#62;Mes données de tableaux&#60;/table&#62;</p>
-
-
+    <h3>&#60;article&#62; : Le contenu autonome</h3>
+    <p>Cette balise permet d'ajouter un élément autonome à la page web</p>
+    <p>Exemple : &#60;article class="la_description_de_notre_element"&#62; Notre élément &#60;/article&#62;</p>
+    <h3>&#60;menu&#62; : Ajouter un menu sur sa page HTML5</h3>
+    <p>Cette balise permet d'ajourer un menu sur sa page HTML5, elle est cependant obsolète actuellement</p>
+    <p>Exemple : &#60;menu type="context"&#62; Nos éléments de menu &#60;/menu&#62;</p>
+    <h3>&#60;section&#62; : Un contenu générique</h3>
+    <p>Cette balise permet de définir une section générique sur un document</p>
+    <p>Exemple : <br />&#60;section&#62; <br />&#60;h1&#62;Titre&#60;/h1&#62;<br />&#60;p&#62;paragraphe en lien avec la
+        section&#60;/p&#62;<br />&#60;/section&#62;</p>
+    <h3>&#60;aside&#62; : "Aparté" en anglais</h3>
+    <p>Cette balise permet de définir une partie du document qui n'aura qu'un rapport indirect avec le contenu du
+        document.</p>
+    <p>Exemple : <br />&#60;body&#62;<br />&#60;aside&#62;Mon texte ayant une mise en forme
+        alternative&#60;/aside&#62;<br />&#60;p&#62;Mon texte normal&#60;/p&#62;<br />&#60;/body&#62;</p>
+    <h3>&#60;figure&#62; : Balise de schéma</h3>
+    <p>Cette balise permet d'importer un schéma dans une page HTML5, elle peut être légendée avec la balise
+        &#60;figcaption&#62;</p>
+    <p>Exemple : &#60;figure&#62;&#60;img src="../images/img.png"&#62;&#60;figcaption>Une photo de
+        moi&#60;/figcaption&#62;
+        </figure> <br />
+        <figure>
+            <img src="../images/img.png">
+            <figcaption>Une photo d'un de mes single</figcaption>
+        </figure>
+    </p>
+    <h3>&#60;nav&#62; : Les liens de navigation</h3>
+    <p>Cette balise permet de définir une section de page ayant des liens vers d'autres pages, fragments de pages ou
+        documents liés au site.</p>
+    <p>Exemple : <br />&#60;nav&#62;<br />&#60;ol&#62;<br />&#60;li&#62;Lien 1 vers une page du
+        site&#60;/li&#62;<br />&#60;li&#62;Lien 2 vers un fragment de la page
+        actuelle&#60;/li&#62;<br />&#60;/ol&#62;<br />&#60;/nav&#62;</p>
+    <h3>&#60;div&#62; : Conteneur indépendant</h3>
+    <p>Cette balise permet d'attribuer un conteneur générique à l'interieur de la page. Il peut être mis en forme
+        indépendamment de la page web grâce
+        à du code CSS5.
+    </p>
+    <p>Exemple : <br />&#60;body&#62;<br />&#60;p&#62;Un élément du body&#60;/p&#62;<br />&#60;div
+        class"le_nom_du_conteneur"&#62;Mon conteneur indépendant&#60;/div&#62;<br />&#60;/body&#62;</p>
+    <h3>&#60;span&#62; : Conteneur indépendant "inline"</h3>
+    <p>Comme la balise &#60;div&#62; , la balise &#60;span&#62; sert à définir un conteneur indépendant de mise en forme
+        générale. Celle ci va cependant être utilisée
+        sur du texte, contrairement à &#60;div&#62; qui s'applique à n'importe quel éléments d'une page.
+    </p>
+    <p>Exemple : <br />&#60;body&#62;<br />&#60;p&#62;Un élément du body&#60;/p&#62;<br />&#60;span
+        class"le_nom_du_conteneur"&#62;Mon conteneur textuel&#60;/span&#62;<br />&#60;/body&#62;</p>
 </body>
 
 </html>
