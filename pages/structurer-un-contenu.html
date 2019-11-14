@@ -132,7 +132,34 @@
     <p>Cette balise est utilisée afin d'indiquer le terme qui est en train d'être défini dans une phrase ou un paragraphe.</p>
     <p>Exemple : &#60;dfn id="def-outrecuidance"&#62;Une outrecuidance&#60;/dfn&#62; est une figure de style mettant en avant l'éxageration.</p>
     <p>= <dfn id="def-outrecuidance">Une outrecuidance</dfn> est une figure de style mettant en avant l'éxageration.</p>
-
+    <h3>&#60;code&#62; : L'élément de code sur une page web.</h3>
+    <p>Cette balise permet d'afficher des caractères comme un fragment de code machine</p>
+    <p>Exemple : La commande &#60;code&#62;git commit- m "description-de-sa-version"&#60;/code&#62; permet d'ajouter une description à une nouvelle version de projet sur github avec git.</p>
+    <p> = La commande <code>git commit -m "description-de-sa-version"</code> permet d'ajouter une description à une nouvelle version de projet sur github avec git.</p>
+    <h3>&#60;kbd&#62; : l'élément de saisie clavier</h3>
+    <p>Cette balise permet d'ajouter des saisies clavier au texte, afin de mettre en avant un raccourci clavier ou une suite de combinaison.</p>
+    <p>Exemple : Faites &#60;kbd&#62;Ctrl&#60;/kbd&#62; + &#60;kbd&#62;F&#60;/kbd&#62; pour rechercher un élément dans la page.</p>
+    <p>= Faites <kbd>Ctrl</kbd> + <kbd>F</kbd> pour rechercher un élément dans la page.</p>
+    <h3>&#60;var&#62; : Les éléments de variables</h3>
+    <p>Cette balise permet de mettre en avant une ou plusieurs variables, utiles lors d'une explication mathématique.</p>
+    <p>Exemple : La variable &#60;var&#62;a&#60;/var&#62; n'est pas égale à la variable &#60;var&#62;b&#60;/var&#62;</p>
+    <p>= La variable <var>a</var> n'est pas égale à la variable <var>b</var>.</p>
+    <h3>&#60;ins&#62; : Le texte ajouté sur un document</h3>
+    <p>Cette balise représente du texte ajouté à un document par un utilisateur tier, utile notamment pour les pad collaboratifs comme Framapad ou Google Docs.</p>
+    <p>Exemple : Ceci e&#60;ins&#62;s&#60;/ins&#62;t une faute d'orthographe.</p>
+    <p>= Ceci e<ins>s</ins>t une faute d'orthographe.</p>
+    <h3>&#60;del&#62; : Un texte supprimé</h3>
+    <p>Cette balise permet d'afficher du texte qui a été supprimé par un utilisateur tier, de la même manière que la balise juste au dessus.</p>
+    <p>Exemple : Bugs connus -> &#60;del&#62;Problème de bluetooth sur la rom custom&#60;/del&#62;&#60;ins&#62; fixed!&#60;/ins&#62;</p>
+    <p>= Bugs connus -> <del>Problème de bluetooth sur la rom custom</del> <ins>fixed!</ins></p>
+    <h3>&#60;b&#62; : Un contenu attirant l'attention</h3>
+    <p>Le but de cette balise est de mettre en évidence une partie de texte importante. Elle la met automatiquement en gras, alors il faut faire attention à son utilisation et ne pas trop en abuser.</p>
+    <p>Exemple : On ne jette &#60;b&#62;PAS&#60;/b&#62; ses mégots par terre.</p>
+    <p>= On ne jette <b>PAS</b> ses mégots par terre.</p>
+    <h3>&#60;strong&#62; : L'élément de haute importance</h3>
+    <p>Même utilité que la balise &#60;b&#62;, mais un cran au dessus. Son information sera priorisée par le navigateur et les moteurs de recherche. L'effet visuel reste le même tant qu'il n'est pas mis en forme.</p>
+    <h3>&#60;u&#62; : L'éléments souligné (je ne conseille pas de l'utiliser)</h3>
+    <p>Cette balise permetde souligner un texte, elle est cepepdant obsolète. Il faut maintenant utiliser la balise CSS3 <code>underline</code> afin de "décorer" du texte en le soulignant par exemple.</p>
 </body>
 
 </html>
