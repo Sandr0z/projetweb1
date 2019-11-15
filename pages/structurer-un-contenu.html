@@ -160,6 +160,85 @@
     <p>Même utilité que la balise &#60;b&#62;, mais un cran au dessus. Son information sera priorisée par le navigateur et les moteurs de recherche. L'effet visuel reste le même tant qu'il n'est pas mis en forme.</p>
     <h3>&#60;u&#62; : L'éléments souligné (je ne conseille pas de l'utiliser)</h3>
     <p>Cette balise permetde souligner un texte, elle est cepepdant obsolète. Il faut maintenant utiliser la balise CSS3 <code>underline</code> afin de "décorer" du texte en le soulignant par exemple.</p>
+    <h3>&#60;i&#62; : Morceau de texte différencié</h3>
+    <p>Cette balise permet de différencer un morceau de texte dans un paragraphe. Le texte est nottament interprété par défaut en italique.</p>
+    <p>Exemple : &#60;p&#62;Il faut toujours séparer les &#60;i&#62;intépretations&#60;/i&#62; et les &#60;i&#62;faits&#60;/i&#62; lorsqu'on applique la communication non-violente au quotidien&#60;/p&#62;</p>
+    <p>= Il faut toujours séparer les <i>intépretations</i> et les <i>faits</i> lorsqu'on applique la communication non-violente au quotidien</p>
+    <h3>&#60;em&#62; : Éléments de mise en emphase</h3>
+    <p>Cette balise, comme la précédente, permet de mettre en emphase un morceau du texte</p>
+    <p>Exemple : &#60;p&#62;Il faut toujours séparer les &#60;em&#62;intépretations&#60;/em&#62; et les &#60;em&#62;faits&#60;/em&#62; lorsqu'on applique la communication non-violente au quotidien&#60;/p&#62;</p>
+    <p>= Il faut toujours séparer les <i>intépretations</i> et les <i>faits</i> lorsqu'on applique la communication non-violente au quotidien</p>
+    <h3>&#60;mark&#62; : Du texte marqué</h3>
+    <p>Cette balise permet de marquer une partie de texte, comme on surlignerai un texte sur un papier avec un stabilo.</p>
+    <p>Exemple : L'azote liquide est à une température de &#60;mark&#62;-195.79°C&#60;/mark&#62;</p>
+    <p>= L'azote liquide est à une température de <mark>-195.79°C.</mark></p>
+    <h3>&#60;small&#62; : Des éléments plus petits</h3>
+    <p>Cette balise permet de mettre en forme une partie de texte en plus petit. Elle peut être utilisé en bas de page par exemple pour les mentions légales, termes d'un contrats..... Je déconseille l'utilisation de cette balise étant donné que les possibilités de mises en formes sont limitées, contrairement aux utilisations possibles avec le langage CSS3.</p>
+    <p>Exemple : <br/>&#60;small&#62;Cette page a été écrite en 2019 par un grand monsieur. Licence open source.&#60;/small&#62;</p>
+    <p>Exemple : <br/><small>Cette page a été écrite en 2019 par un grand monsieur. Licence open source.</small></p>
+    <h3>&#60;sup&#62; / &#60;sub&#62; : Exposant et souscriptions</h3>
+    <p>Ces balises permettent d'affecter des exposants ou des souscriptions à des nombres, indispensables en mathématique ou en chimie.</p>
+    <p>Exemple : La molécule d'eau est H&#60;sub&#62;2&#60;/sub&#62;O / A*A = A&#60;sup&#62;2&#60;/sup&#62;.</p>
+    <p>= La molécule d'eau est H<sub>2</sub>O / A*A = A<sup>2</sup>.</p>
+    <h3>Les listes classiques et ordonnées</h3>
+    <p>Il y a plusieurs types de listes. Il y a les listes ordonnées qu'on met en utilisation avec la balise &#60;ol&#62; et les listes classiques avec &#60;ul&#62;. Pour ajouter
+        un élément à la liste en écriture, il faut utiliser la balise &#60;li&#62; pour les deux types de listes.</p>
+    <p>Exemple : &#60;ol&#62;&#60;li&#62;Premier élément de liste ordonnée&#60;/li&#62;&#60;li&#62;Deuxième élément de liste ordonnée&#60;/li&#62;&#60;/ol&#62;<br/>&#60;ul&#62;&#60;li&#62;Premier élément de liste normale&#60;/li&#62;&#60;li&#62;Deuxieme élément de liste normale&#60;/li&#62;&#60;/ul&#62;</p>
+    <p>= 
+    <ol>
+        <li>Premier élément de liste ordonnée</li>
+        <li>Deuxième élément de liste ordonnée</li>
+    </ol>
+    <ul>
+        <li>Premier élément de liste classique</li>
+        <li>Deuxième élément de liste classique</li>
+    </ul>
+
+    </p>
+    <h3>&#60;dl&#62; : Les listes descriptives</h3>
+    <p>Cette balise permet de faire une liste descriptive. On ajoute des éléments à cette liste avec les balises &#60;dt&#62; pour les éléments de titre, et la balise &#60;dd&#62; pour la description de titre dans la liste.</p>
+    <p>Exemple : &#60;dl&#62;&#60;dt&#62;Nouveauté 1.1&#60;/dt&#62;&#60;dd&#62;Optimisation de la batterie&#60;/dd&#62;&#60;dd&#62;Compatible Android 10&#60;/dd&#62;</p>
+    <p>= 
+        <dl>
+            <dt>Nouveauté 1.1</dt>
+                <dd>Optimisation de la batterie</dd>
+                <dd>Compatible Android 10</dd>
+        </dl>
+    </p>
+    <h3>&#60;tbody&#62; : Corps de tableau</h3>
+    <p>Cette balise permet de regrouper un ou plusieurs éléments à mettre en forme dans le corps d'un tableau. On peut le titrer avec la balise &#60;caption&#62;. Pareillement, les items du tableau sont mis en forme avec les balises &#60;tr&#62; &#60;th&#62; et &#60;td&#62;.
+        Les types d'item sont mis en forme avec la balise &#60;thread&#62;.
+    </p>
+    <p>Exemple : </p>
+    <table>
+            <caption>Voyage à Marrakech</caption>
+            <thead>
+                <tr>
+                    <th>Bien à réflechir</th>
+                    <th scope="col">Argent à prévoir ~</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Voyage avion A/R</th>
+                    <td>170€</td>
+                </tr>
+                <tr>
+                    <th scope="row">Se nourrir sur place</th>
+                    <td>10€/j</td>
+                </tr>
+                <tr>
+                    <th scope="row">Se loger sur place</th>
+                    <td>15€/nuit</td>
+                </tr>
+                <tr>
+                    <th scope="row">Sous bonus à prévoir</th>
+                    <td>200€</td>
+                </tr>
+                
+            </tbody>
+        </table>    
+   
 </body>
 
 </html>
