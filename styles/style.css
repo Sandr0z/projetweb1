@@ -1,4 +1,5 @@
 html {
+    /* J'ai choisi volontairement de mettre ces éléments dans html {} afin qu'ils soient appliqués partout sur la page */
     background-color: #B0BEC5;
     font-family: "Open Sans";
     margin-left: 5%;
@@ -6,14 +7,17 @@ html {
 }
 
 h1 {
+    /* La mise en forme du titre de niveau 1 */
     text-align: center;
 }
 
 h2 {
+    /* La mise en forme du titre de niveau 2 */
     text-align: center;
 }
 
 header {
+    /* La mise en forme du haut de page */
     background-color: #ECEFF1;
     color: black;
     padding: 6px;
@@ -24,6 +28,7 @@ header {
 }
 
 header:hover {
+    /* La mise en forme du haut de page lorsque la souris passe dessus */
     box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
     -moz-box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
     -webkit-box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
@@ -31,11 +36,13 @@ header:hover {
 }
 
 @font-face {
+    /* Police d'écriture alternative (product sans dans notre cas) */
     font-family: "Open Sans";
     src: url("/fonts/product-sans-regular.ttf") format("ttf");
 }
 
 img {
+    /* La mise en forme des images du site */
     max-width: 40%;
     display: block;
     margin-left: auto;
@@ -45,6 +52,7 @@ img {
 }
 
 img:hover {
+    /* La mise en forme des images du site losque la souris passera dessus */
     box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
     -moz-box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
     -webkit-box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
@@ -52,6 +60,7 @@ img:hover {
 }
 
 body {
+    /* La mise du corps du site */
     background-color: #CFD8DC;
     padding-left: 10px;
     padding-right: 10px;
@@ -62,6 +71,7 @@ body {
 }
 
 body:hover {
+    /* La mise du corps du site lorsque la souris passe dessus */
     transition: 0.2s;
     box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
     -moz-box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
