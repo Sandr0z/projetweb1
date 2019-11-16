@@ -1,0 +1,41 @@
+html {
+    background-color: #B0BEC5;
+    font-family: "Open Sans";
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    background-color: #ECEFF1;
+    color: black;
+    padding: 6px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+header:hover {
+    box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
+    -moz-box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
+    -webkit-box-shadow: 0px 11px 10px 0px rgba(119, 119, 119, 0.4);
+    transition: 0.2s;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/product-sans-regular.ttf") format("ttf");
+}
+
+img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
