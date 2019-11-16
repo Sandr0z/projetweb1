@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
-<html>
+<html lang=fr>
 
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../style.css">
+    <title>Structuration de contenu</title>
 
 
 </head>
@@ -31,8 +32,8 @@
     <h3>&#60;hr&#62; : les ruptures thématiques</h3>
     <p>Cette balise permet de faire une rupture thématique sur du texte, certains navigateurs tracent une ligne horizontale.
     </p>
-    <p>Exemple : <br /> &#60;p&#62;Voici mon paragraphe encore une fois sur la communication non-violente au quotidien. &#60;hr/&#62;
-        <hr /> Elle a été théorisée par l'enseignant chercheur Marshall Rosenberg.&#60;/p&#62; </p>
+    <p>Exemple : <br /> &#60;p&#62;Voici mon paragraphe encore une fois sur la communication non-violente au quotidien. &#60;hr/&#62;</p>
+    <hr /> Elle a été théorisée par l'enseignant chercheur Marshall Rosenberg.&#60;/p&#62;
     <h3>&#60;blockquote&#62; : de grandes citations</h3>
     <p>Cette balise permet de montrer au navigateur que le texte suivant est une grande citation.</p>
     Exemple : &#60;blockquote&#62; Ma grande citation &#60;/blockquote&#62; <br /> Ce qui donne ça :
@@ -65,12 +66,11 @@
     <h3>&#60;figure&#62; : Balise de schéma</h3>
     <p>Cette balise permet d'importer un schéma dans une page HTML5, elle peut être légendée avec la balise &#60;figcaption&#62;
     </p>
-    <p>Exemple : &#60;figure&#62;&#60;img src="../images/img.png"&#62;&#60;figcaption>Une photo de moi&#60;/figcaption&#62; &#60;/figure&#62; <br />
-        <figure>
-            <img src="../images/img.png">
-            <figcaption>Une photo d'un de mes single</figcaption>
-        </figure>
-    </p>
+    <p>Exemple : &#60;figure&#62;&#60;img src="../images/img.png"&#62;&#60;figcaption>Une photo de moi&#60;/figcaption&#62; &#60;/figure&#62; </p> <br />
+    <figure>
+        <img src="../images/img.png">
+        <figcaption>Une photo d'un de mes single</figcaption>
+    </figure>
     <h3>&#60;nav&#62; : Les liens de navigation</h3>
     <p>Cette balise permet de définir une section de page ayant des liens vers d'autres pages, fragments de pages ou documents liés au site.</p>
     <p>Exemple : <br />&#60;nav&#62;<br />&#60;ol&#62;<br />&#60;li&#62;Lien 1 vers une page du site&#60;/li&#62;
@@ -115,8 +115,8 @@
     <h3>&#60;adress&#62; : Les éléments de contact</h3>
     <p>Cette balise permet d'indiquer des informations de contact comme l'adresse, le téléphone ou le mail d'une personne ou d'une organisation.</p>
     <p>Exemple : &#60;address&#62;&#60;a href="tel:+33777951690"&#62;Téléphone&#60;/a&#62;&#60;/address&#62;</p>
-    <p>= <address><a href="tel:+33777951690">Téléphone</a></address>
-    </p>
+    = <address><a href="tel:+33777951690">Téléphone</a></address>
+
     <h3>&#60;dfn&#62; : Un terme en train d'être définit</h3>
     <p>Cette balise est utilisée afin d'indiquer le terme qui est en train d'être défini dans une phrase ou un paragraphe.
     </p>
@@ -181,32 +181,30 @@
         pour les deux types de listes.</p>
     <p>Exemple : &#60;ol&#62;&#60;li&#62;Premier élément de liste ordonnée&#60;/li&#62;&#60;li&#62;Deuxième élément de liste ordonnée&#60;/li&#62;&#60;/ol&#62;<br />&#60;ul&#62;&#60;li&#62;Premier élément de liste normale&#60;/li&#62;&#60;li&#62;Deuxieme
         élément de liste normale&#60;/li&#62;&#60;/ul&#62;</p>
-    <p>=
-        <ol>
-            <li>Premier élément de liste ordonnée</li>
-            <li>Deuxième élément de liste ordonnée</li>
-        </ol>
-        <ul>
-            <li>Premier élément de liste classique</li>
-            <li>Deuxième élément de liste classique</li>
-        </ul>
-
-    </p>
+    =
+    <ol>
+        <li>Premier élément de liste ordonnée</li>
+        <li>Deuxième élément de liste ordonnée</li>
+    </ol>
+    <ul>
+        <li>Premier élément de liste classique</li>
+        <li>Deuxième élément de liste classique</li>
+    </ul>
     <h3>&#60;dl&#62; : Les listes descriptives</h3>
     <p>Cette balise permet de faire une liste descriptive. On ajoute des éléments à cette liste avec les balises &#60;dt&#62; pour les éléments de titre, et la balise &#60;dd&#62; pour la description de titre dans la liste.
     </p>
     <p>Exemple : &#60;dl&#62;&#60;dt&#62;Nouveauté 1.1&#60;/dt&#62;&#60;dd&#62;Optimisation de la batterie&#60;/dd&#62;&#60;dd&#62;Compatible Android 10&#60;/dd&#62;</p>
-    <p>=
-        <dl>
-            <dt>Nouveauté 1.1</dt>
-            <dd>Optimisation de la batterie</dd>
-            <dd>Compatible Android 10</dd>
-        </dl>
-    </p>
+    =
+    <dl>
+        <dt>Nouveauté 1.1</dt>
+        <dd>Optimisation de la batterie</dd>
+        <dd>Compatible Android 10</dd>
+    </dl>
+
     <h3>&#60;tbody&#62; : Corps de tableau</h3>
-    <p>Cette balise permet de regrouper un ou plusieurs éléments à mettre en forme dans le corps d'un tableau. On peut le titrer avec la balise &#60;caption&#62;. Pareillement, les items du tableau sont mis en forme avec les balises &#60;tr&#62; &#60;th&#62;
-        et &#60;td&#62;. Les types d'item sont mis en forme avec la balise &#60;thread&#62;.
-    </p>
+    Cette balise permet de regrouper un ou plusieurs éléments à mettre en forme dans le corps d'un tableau. On peut le titrer avec la balise &#60;caption&#62;. Pareillement, les items du tableau sont mis en forme avec les balises &#60;tr&#62; &#60;th&#62;
+    et &#60;td&#62;. Les types d'item sont mis en forme avec la balise &#60;thread&#62;.
+
     <p>Exemple : </p>
     <table>
         <caption>Voyage à Marrakech</caption>
@@ -236,7 +234,11 @@
 
         </tbody>
     </table>
-
+    <hr/>
+    <footer>
+        <small>Licence open source : <a href="https://github.com/Sandr0z/projetweb1">Lien du Github</a></small>
+    </footer>
 </body>
+
 
 </html>
