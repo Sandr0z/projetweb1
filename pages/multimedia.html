@@ -3,23 +3,27 @@
 <html lang=fr>
 
 <head>
+    <!-- Ici se trouvent toutes les informations que le navigateur inteprêtera grâce à la balise <head> -->
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../styles/style.css">
     <title>Multimedia</title>
 </head>
 
 <body>
+    <!-- Corps de la page -->
     <header>
+        <!-- Haut de la page -->
         <h1>Mon petit pense bête HTML5<br />Sandro de PAZ</h1>
         <h2><a href="../index.html">Revenir à la page d'accueil</a></h2>
     </header>
+    <!-- Contenu de la page -->
     <h2>Les balises multimedia, à quoi servent t-elles ?</h2>
     <p>Ces balises servent à mettre en avant un contenu multimedia à l'interieur d'une page web. Ça peut être un morceau de musique au format MP3, comme une vidéo, une photo, etc.
     </p>
     <h2>Les différentes balises</h2>
     <h3>&#60;img/&#62;, l'affichage d'un fichier image.</h3>
     <p>Cette balise permet d'afficher une image à l'interieur de la page web.</p>
-    <p>Exemple : &#60;img src="liendemonimage.png"/&#62; = <br /><br /><img src="../images/img.png" /></p>
+    <p>Exemple : &#60;img src="liendemonimage.png"/&#62; = <br /><br /><img src="../images/img.png" alt="monimage" /></p>
     <h3>&#60;audio&#62; ; &#60;video&#62; ; &#60;source&#62;</h3>
     <p>Ces balises sont un peu spéciales, ne fonctionnent pas comme les autres. La balise &#60;audio&#62; sert à mettre un fichier audio sur la page web, et la balise &#60;video&#62; sert à mettre un fichier vidéo sur la page web. Seulement, on ne va pas
         intégrer le lien de ces fichiers dans les balises &#60;audio&#62; ou &#60;video&#62;, c'est là qu'on utilisera la balise &#60;source&#62;. Elle servira à sourcer le contenu multimedia audio ou vidéo pour le navigateur.
@@ -34,6 +38,7 @@
     <p>Exemple : &#60;a href="url-de-ma-redirection"&#62; mon texte (ou media) cliquable &#60;/a&#62;</p>
     <hr/>
     <footer>
+        <!-- footer = bas de page-->
         <small>Licence open source : <a href="https://github.com/Sandr0z/projetweb1">Lien du Github</a></small>
     </footer>
 </body>
